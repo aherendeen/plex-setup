@@ -1,0 +1,38 @@
+# Logs
+*.log
+logs/*.log
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment/Config (user-specific)
+config/paths.env
+.env
+*.env.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Docker
+docker/.env
+
+# Kometa runtime
+kometa/config/
+!kometa/config/.gitkeep

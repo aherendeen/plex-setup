@@ -1,0 +1,1 @@
+/data/media/courses/{n}{(y && !(n =~ /(?i)\b${y}\b/)) ? " (${y})" : ""}/Season {s.pad(2)}/{n} - S{s.pad(2)}E{e.pad(2)} - {t}
